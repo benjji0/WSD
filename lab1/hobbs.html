@@ -1,7 +1,36 @@
-<h3>Hobbies</h3>
-    <ol>
-        <li>Gaming</li>
-        <li>Reading</li>
-        <li>Movies</li>
-    </ol>
-<a href="index.html">back</a>
+<ol id="orderProcess">
+    <li><span class="step-number">1</span>Choose Item</li>
+    <li class="current"><span class="step-number">2</span>Details &amp; Submit</li>
+    <li><span class="step-number">3</span>Receipt</li>
+</ol>
+<h1>Place Your Order: @Model.Product.Name</h1>
+<form method="post">
+    <div class="row">
+        <div class="col-3">
+            <img src="img1.jpg" width="100" height="100" class="img-fluid img-thumbnail" alt="Image of p" />
+        </div>
+        <div class="col-9">
+
+            <div>
+                <p class="description">Product Name</p>
+            </div>
+            <div class="form-group">
+                <input class="form-control form-control-sm" />
+                <span></span>
+            </div>
+
+
+            <div class="form-group">
+                Description<br \>
+                <textarea rows="4" class="form-control form-control-sm"></textarea>
+                <span></span>
+            </div>
+            <div class="form-group row">
+            </div>
+            <p class="actions">
+                <input type="hidden" />
+                <a href="index.html"><button onclick="submit"></button>Place Order</button></a>
+            </p>
+        </div>
+    </div>
+</form>

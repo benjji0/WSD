@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="lab3.xsd" type="text/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="lab3.xsl" type="text/xsl"?>
+<prod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></prod>

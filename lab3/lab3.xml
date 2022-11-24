@@ -1,4 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="lab3.xsd" type="text/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<?xml-stylesheet href="lab3.xsl" type="text/xsl"?>
-<prod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></prod>
+<?xml-stylesheet type="text/xsl" href="lab3.xsl"?>
+<store xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:NamespaceSchemaLocation="lab3.xsd">
+    <prod>
+        <name>for dogs chunky meat flavoured graules</name>
+        <cat>dog food</cat>
+        <desc>pedegree for dogs </desc>
+        <quantity>4</quantity>
+        <price>7000</price>
+        <availability>available</availability>
+        <seller>guanyu</seller>
+    </prod>
+
+    <prod>
+        <name>chunky fish flavoured graules</name>
+        <cat>cat food</cat>
+        <desc>pedegree for cats </desc>
+        <quantity>4</quantity>
+        <price>9000</price>
+        <availability>available</availability>
+        <seller>guanyu</seller>
+    </prod>
+
+    <prod>
+        <name>chunky insect flavoured fishfood</name>
+        <cat>fish food</cat>
+        <desc>pedegree for fish </desc>
+        <quantity>16</quantity>
+        <price>6000</price>
+        <availability>available</availability>
+        <seller>fuiol</seller>
+    </prod>
+
+    <prod>
+        <name>csteel bowl xs</name>
+        <cat>vessels</cat>
+        <desc>Stainless easy to wash</desc>
+        <quantity>16</quantity>
+        <price>10000</price>
+        <availability>available</availability>
+        <seller>XLS enterprise</seller>
+    </prod>
+
+    <prod>
+        <name>dog toy xs</name>
+        <cat>toys</cat>
+        <desc>play safe rubber, epo mix</desc>
+        <quantity>226</quantity>
+        <price>900</price>
+        <availability>available</availability>
+        <seller>XLS enterprise</seller>
+    </prod>
+    
+    <prod>
+        <name>lux chunky meat flavoured graules</name>
+        <cat>petfood</cat>
+        <desc>pedegree for dogs </desc>
+        <quantity>4</quantity>
+        <price>8950</price>
+        <availability>available</availability>
+        <seller>guanyu</seller>
+    </prod>
+
+    <prod>
+        <name>premium chunky meat flavoured graules</name>
+        <cat>petfood</cat>
+        <desc>pedegree for dogs </desc>
+        <quantity>4</quantity>
+        <price>8000</price>
+        <availability>available</availability>
+        <seller>guanyu</seller>
+    </prod>
+
+    <prod>
+        <name>chunky meat flavoured graules</name>
+        <cat>petfood</cat>
+        <desc>pedegree for dogs </desc>
+        <quantity>4</quantity>
+        <price>7000</price>
+        <availability>available</availability>
+        <seller>guanyu</seller>
+    </prod>
+
+</store>

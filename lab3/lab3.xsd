@@ -1,1 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prod" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="cat" type="xs:string" />
+                            <xs:element name="desc" type="xs:string" />
+                            <xs:element name="quantity">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1" />
+                                        <!-- <xs:pattern value="[0-9]{7}"/> -->
+                                        <xs:maxInclusive value="20" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="price">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1" />
+                                        <xs:pattern value="[0-9]{4}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="availability" type="xs:string" />
+                            <xs:element name="store" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- <xs:simpleType name="maker">
+    xs:minInclusive value="1"/>
+                    <xs:pattern value="[0-9]{7}"/> 
+                    <xs:maxInclusive value="20"/>
+  </xs:simpleType> -->
+</xs:schema>  

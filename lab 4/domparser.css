@@ -3,9 +3,10 @@
     text-align: center;
     width: fit-content;
     margin-left: 2rem;
-    background-color: rgb(247, 255, 104);
-    border: 1px solid grey;
-    box-shadow: 3px 4px 6px rgb(35, 40, 28);
+    background-color: rgb(249, 116, 222);
+    color: antiquewhite;
+    border: 1px solid rgb(249, 116, 222);
+    box-shadow:  4px 6px rgb(255, 255, 255);
     padding: 4rem;
    
 }
@@ -15,9 +16,9 @@
     width: fit-content;
     margin-left: 2rem;
     background-color: rgb(248, 97, 97);
-    color: white;
-    border: 1px solid grey;
-    box-shadow: 3px 4px 6px rgb(35, 40, 28);
+    color: antiquewhite;
+    border: 1px solid rgb(248, 97, 97);
+    box-shadow:  4px 6px rgb(255, 255, 255);
     padding: 4rem;
 }
 .box2
@@ -26,9 +27,9 @@
     width: fit-content;
     margin-left: 2rem;
     background-color: rgb(65, 78, 255);
-    color: white;
-    border: 1px solid grey;
-    box-shadow: 3px 4px 6px rgb(35, 40, 28);
+    color: antiquewhite;
+    border: 1px solid rgb(65, 78, 255);
+    box-shadow:  4px 6px rgb(255, 255, 255);
     padding: 4rem;
 }
 .box3
@@ -37,9 +38,9 @@
     width: fit-content;
     margin-left: 2rem;
     background-color: rgb(48, 189, 92);
-    color: white;
-    border: 1px solid grey;
-    box-shadow: 3px 4px 6px rgb(35, 40, 28);
+    color: antiquewhite;
+    border: 1px solid rgb(48, 189, 92);
+    box-shadow:  4px 6px rgb(255, 255, 255);
     padding: 4rem;
 }
 body
@@ -47,7 +48,8 @@ body
     text-align: center;
     width: fit-content;
     display: flex; 
-    background-color: rgb(255, 220, 168);
+    color: bisque;
+    background-color: rgb(0, 0, 0);
     padding: 2rem;
 }
 *

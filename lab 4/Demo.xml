@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <user>
+         <name>hjadi</name>
+         <reg>EN2648264826</reg>
+         <email>example@email.com</email>
+    </user>
+    <user>
+        <name>akbigbig</name>
+        <reg>EN81724740</reg>
+        <email>example@email.com</email>
+    </user>
+    <admin>
+        <name>18501535</name>
+        <reg>AD7824027</reg>
+        <email>example@email.com</email>
+    </admin>
+    <user>
+        <name>ahruhiwr</name>
+        <reg>EN71947418</reg>
+        <email>example@email.com</email>
+    </user>
+</course>
